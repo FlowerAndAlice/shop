@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <sister></sister>
+    <brother></brother>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import sister from "./components/Sister.vue";
+  import brother from "./components/Brother.vue";
+  export default {
+    components: {
+      sister,
+      brother,
+    },
+    data() {
+      return {
+        pray: "",
+        prayList: [],
+      }
+    },
+    methods: {
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+    },
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  * {
+    color: pink;
+    list-style: none;
+  }
+  
+  body {
+    background-image: url(https://pic.imgdb.cn/item/61113d075132923bf8b88fb2.jpg);
+    background-size: cover;
+  }
 </style>
