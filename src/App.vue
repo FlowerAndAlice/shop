@@ -1,17 +1,14 @@
 <template>
   <div id="app">
-    <sister></sister>
-    <brother></brother>
+    <Header></Header>
   </div>
 </template>
 
 <script>
-  import sister from "./components/Sister.vue";
-  import brother from "./components/Brother.vue";
+  import Header from "./components/Header/Header.vue";
   export default {
     components: {
-      sister,
-      brother,
+      Header
     },
     data() {
       return {

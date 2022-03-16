@@ -12,6 +12,8 @@
     "core-js": "^3.6.5",
     "element-ui": "^2.15.5",
     "koa-cors": "^0.0.16",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
