@@ -1,5 +1,6 @@
 # shop note
 
+<<<<<<< HEAD
 ### 路由
 
 * vue-router
@@ -20,3 +21,6 @@
   * 项目采用less,浏览器无法识别,需要处理,less  + less-loader@5,
 
 ​          
+=======
+### 练手项目
+>>>>>>> 6a47cdee29ee4120fad2149305dc1c7e0c24ce49
